@@ -1,0 +1,1 @@
+python emulator.py --script script1.txt

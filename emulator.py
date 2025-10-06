@@ -92,12 +92,8 @@ class Emulator:
 
     def run(self):
         if self.script_path:
-            print(f"Выполнение скрипта: {self.script_path}")
-            print("=" * 40)
             if not self.execute_script(self.script_path):
                 return
-            print("=" * 40)
-            print("Скрипт выполнен")
 
         while self.running:
             try:
